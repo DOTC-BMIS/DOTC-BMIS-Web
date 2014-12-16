@@ -1,0 +1,55 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.dotc_pdf_qrcode{
+	width: 47%;
+	padding: 5px;
+	border: 1px solid #000;
+	margin-left: 2%;
+	margin-bottom: 1%;
+}
+
+.dotc_pdf_qrcode td{
+	color: #000;
+	font-size: 12px;
+}
+
+.dotc_pdf_qrcode-img{
+	width: 130px;
+	height: 130px;
+	text-align: center;
+	border: 1px solid #000;
+}
+
+.dotc_table{
+	font-size: 12px;
+}
+
+.dotc_table_report{
+	font-size: 12px;
+}
+
+.dotc_table_report th{
+	background-color: #454545;
+	color: #ffffff;
+	padding: 3px;
+}
+
+.dotc_table_report td{
+	color: #454545;
+	padding: 2px;
+}
+
+.dotc_pdf_qrcode-data{
+	width: 200px;
+}
+
+.left{
+	float: left;
+}
+
+.clearb{
+	clear: both;
+}

@@ -1,0 +1,18 @@
+{{#if representative.0.lname}}
+	{{#each representative}}
+		<tr>
+			<td>
+				{{{lname}}}, {{{fname}}}
+			</td>
+			<td>
+				{{{date_registered}}}
+			</td>
+			<td>
+				{{{encoder_lname}}}, {{{encoder_fname}}}
+			</td>
+			<td>
+				<a href='javascript: void(0)' data-codeid='{{{code_id}}}' class='dotc_view_changes'>CHANGES</a>&nbsp;<a href='javascript: void(0)' data-codeid='{{{code_id}}}' class='dotc_revise_qr_codes'>QR CODES</a>&nbsp;<a href='javascript: void(0)' data-codeid='{{{code_id}}}' class='dotc_revise_verification'>VERIFICATION</a>
+			</td>
+		</tr>
+	{{/each}}
+{{/if}}
